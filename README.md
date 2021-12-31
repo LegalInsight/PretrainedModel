@@ -1,3 +1,5 @@
+<p align="center"><img src="./img/legalinsight_logo.png" width=300px></p>
+
 # Pretrained Korean Language Model (Law)
 한국어 법률특화 사전학습모델(BERT) 학습결과
 
