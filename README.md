@@ -88,11 +88,11 @@ tokenizing 후 : 식품 ##의약품 ##안전 ##처 는 혈중 농도 최저 0 . 
 
 ETRI law mrc dataset은 전세계 헌법이라는 주제로 한정되어 있어 법률 어휘에 대한 embedding을 추가하기 위해 FastText를 도입
 
-|                               | ETRI law mrc (F1/EM) |
-|:-----------------------------:|:--------------------:|
-|       BERT (Small Size)       |    87.62/73.55       |
-| BERT (Small Size) + tf + LSTM |    91.02/79.27       |
-| BERT (Small Size) + FastText + LSTM |    91.92/80.47       |
+|                               | ETRI law mrc (F1/EM) |계약서 mrc 데이터셋(F1) |
+|:-----------------------------:|:--------------------:|:--------------------:|
+|       BERT (Small Size)       |    87.62/73.55       |    86.29       |
+| BERT (Small Size) + tf + LSTM |    91.02/79.27       |    87.11       |
+| BERT (Small Size) + FastText + LSTM |    91.92/80.47       |    87.58       |
 
 *https://github.com/KHY13/KorQuAD-Enliple-BERT-small 의 모델에서 FastText로 수정해 학습
 
