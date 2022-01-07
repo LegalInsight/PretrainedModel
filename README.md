@@ -20,6 +20,7 @@
 
 * 계약서추천, 개인정보NER 데이터셋은 NIA R&D사업(계약서 자동작성 서비스, 개인정보침해평가)에서 제작한 데이터셋 입니다.
 * sample dataset은 sample 폴더에 업로드 했습니다.
+* KMOU NER dataset은 [KoBERT와 CRF로 만든 한국어 개체명인식기](https://github.com/eagle705/pytorch-bert-crf-ner)의 dataset을 사용했습니다.
 
 # Pretrained Model Detail
 * train corpus
