@@ -103,6 +103,7 @@ tokenizing 후 : 식품 ##의약품 ##안전 ##처 는 혈중 농도 최저 0 . 
 |       BERT (Small Size)       |    87.62/73.55       |    86.29       |
 | BERT (Small Size) + tf + LSTM |    91.02/79.27       |    87.11       |
 | BERT (Small Size) + FastText + LSTM |    91.92/80.47       |    87.58       |
+| BERT (Base Size) + FastText + LSTM |    92.37/81.19       |    -       |
 
 *https://github.com/KHY13/KorQuAD-Enliple-BERT-small 의 모델에서 FastText로 수정해 학습
 
